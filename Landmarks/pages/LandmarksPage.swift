@@ -7,16 +7,14 @@
 import SwiftUI
 
 
-struct LandmarkList: View {
+struct LandmarksPage: View {
     @EnvironmentObject var userData: UserData
     @State var searchString = ""
-
 
     var body: some View {
         NavigationView {
             List {
                 TextField ("Search", text: $searchString)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
 
                 Toggle(isOn: $userData.showFavoritesOnly) {
                     Text("Favorites only")
@@ -28,12 +26,12 @@ struct LandmarkList: View {
                         : userData.landmarks.filter { searchFor(landmark: $0) }
                 ) { landmark in
                     if !self.userData.showFavoritesOnly || landmark.isFavorite {
-                        NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                        NavigationLink(destination: LandmarkDetailsPage(landmark: landmark)) {
                             LandmarkRow(landmark: landmark)
                         }
                     }
                 }
-            }.navigationBarTitle(Text("Landmarks"))
+            }.navigationBarTitle(Text("Landmarks 🏞"))
         }
     }
 
@@ -49,7 +47,7 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone XS Max", "iPhone SE"], id: \.self) { deviceName in
-            LandmarkList()
+            LandmarksPage()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }

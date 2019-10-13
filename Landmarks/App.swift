@@ -10,7 +10,17 @@ import SwiftUI
 
 struct App: View {
     var body: some View {
-        LandmarkList()
+        TabView {
+            LandmarksPage().tabItem {
+                Image(systemName: "house.fill")
+                Text("Landmarks")
+            }.tag(0)
+
+            GroupsPage().transition(.opacity).tabItem {
+                Image(systemName: "rectangle.stack.fill")
+                Text("Groups")
+            }.tag(1)
+        }
     }
 }
 

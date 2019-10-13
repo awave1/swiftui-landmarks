@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct LandmarkDetail: View {
+struct LandmarkDetailsPage: View {
     @EnvironmentObject var userData: UserData
     var landmark: Landmark
 
@@ -51,7 +51,7 @@ struct LandmarkDetail: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
 
-        LandmarkDetail(landmark: landmarkData[0])
+        LandmarkDetailsPage(landmark: landmarkData[0])
     }
 }
 #endif
