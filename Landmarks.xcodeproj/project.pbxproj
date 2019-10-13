@@ -30,6 +30,9 @@
 		08C516BC234AAC120060855E /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08C516AF234AAC110060855E /* turtlerock.jpg */; };
 		08E344C22352C005003951A2 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E344C12352C005003951A2 /* Favorite.swift */; };
 		08E344C42352C9BD003951A2 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E344C32352C9BD003951A2 /* App.swift */; };
+		08E344C82352D303003951A2 /* banff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08E344C52352D303003951A2 /* banff.jpg */; };
+		08E344C92352D303003951A2 /* lakelouise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08E344C62352D303003951A2 /* lakelouise.jpg */; };
+		08E344CA2352D303003951A2 /* waterton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08E344C72352D303003951A2 /* waterton.jpg */; };
 		08F7E9EB234531C200BD0B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F7E9EA234531C200BD0B86 /* AppDelegate.swift */; };
 		08F7E9ED234531C200BD0B86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F7E9EC234531C200BD0B86 /* SceneDelegate.swift */; };
 		08F7E9F0234531C200BD0B86 /* Landmarks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08F7E9EE234531C200BD0B86 /* Landmarks.xcdatamodeld */; };
@@ -82,6 +85,9 @@
 		08C516AF234AAC110060855E /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		08E344C12352C005003951A2 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		08E344C32352C9BD003951A2 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		08E344C52352D303003951A2 /* banff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banff.jpg; sourceTree = "<group>"; };
+		08E344C62352D303003951A2 /* lakelouise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lakelouise.jpg; sourceTree = "<group>"; };
+		08E344C72352D303003951A2 /* waterton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterton.jpg; sourceTree = "<group>"; };
 		08F7E9E7234531C200BD0B86 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F7E9EA234531C200BD0B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08F7E9EC234531C200BD0B86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +154,9 @@
 		08C516A2234AABEA0060855E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				08E344C52352D303003951A2 /* banff.jpg */,
+				08E344C62352D303003951A2 /* lakelouise.jpg */,
+				08E344C72352D303003951A2 /* waterton.jpg */,
 				0814CD8E2352BACB008646D2 /* charleyrivers.jpg */,
 				08C516A6234AAC110060855E /* chilkoottrail.jpg */,
 				08C516AC234AAC110060855E /* chincoteague.jpg */,
@@ -344,8 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08E344C92352D303003951A2 /* lakelouise.jpg in Resources */,
 				08C516BA234AAC120060855E /* lakemcdonald.jpg in Resources */,
 				08C516BB234AAC120060855E /* rainbowlake.jpg in Resources */,
+				08E344CA2352D303003951A2 /* waterton.jpg in Resources */,
 				08C516B5234AAC120060855E /* stmarylake.jpg in Resources */,
 				08F7E9FA234531C500BD0B86 /* LaunchScreen.storyboard in Resources */,
 				08F7E9F7234531C500BD0B86 /* Preview Assets.xcassets in Resources */,
@@ -353,6 +364,7 @@
 				08C516B0234AAC120060855E /* twinlake.jpg in Resources */,
 				0814CD8F2352BACB008646D2 /* charleyrivers.jpg in Resources */,
 				08C516B9234AAC120060855E /* chincoteague.jpg in Resources */,
+				08E344C82352D303003951A2 /* banff.jpg in Resources */,
 				08C516B8234AAC120060855E /* landmarkData.json in Resources */,
 				08F7E9F4234531C500BD0B86 /* Assets.xcassets in Resources */,
 				08C516B4234AAC120060855E /* silversalmoncreek.jpg in Resources */,
