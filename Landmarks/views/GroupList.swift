@@ -34,7 +34,7 @@ struct GroupList: View {
                 }
             }.onDelete(perform: { pos in
                 self.userData.groups[self.groupIndex].landmarks.remove(atOffsets: pos)
-                })
+            })
 
         }
         .navigationBarTitle(Text(groupName.isEmpty ? group.name : groupName))
