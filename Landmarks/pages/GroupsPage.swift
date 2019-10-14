@@ -9,9 +9,29 @@
 import SwiftUI
 
 struct GroupsPage: View {
+    @EnvironmentObject var userData: UserData
+    @State var showingActionSheet: Bool = false
+
     var body: some View {
         NavigationView {
-            Text("Groups")
+            List {
+                Button(action: { self.showingActionSheet.toggle() }) {
+                    HStack {
+                        Text("Create New Group")
+                            .bold()
+                        Spacer()
+                        Image(systemName: "plus")
+                    }
+                }.foregroundColor(.blue)
+                ForEach(userData.groups) { group in
+                    NavigationLink(destination: GroupList(group: group)) {
+                        GroupRow(group: group)
+                    }
+                }.onDelete(perform: { self.userData.groups.remove(atOffsets: $0)})
+            }.sheet(isPresented: $showingActionSheet) {
+                CreateNewGroupView().environmentObject(self.userData)
+            }
+            .navigationBarTitle("Groups")
         }
     }
 }

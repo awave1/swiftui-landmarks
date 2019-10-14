@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		0814CD8F2352BACB008646D2 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0814CD8E2352BACB008646D2 /* charleyrivers.jpg */; };
 		0814CD912352BD5B008646D2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0814CD902352BD5B008646D2 /* UserData.swift */; };
+		0838A5152352F683003EB994 /* GroupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0838A5142352F683003EB994 /* GroupCard.swift */; };
+		0838A5172352F81C003EB994 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0838A5162352F81C003EB994 /* Group.swift */; };
+		0838A5192352F8BE003EB994 /* groups.json in Resources */ = {isa = PBXBuildFile; fileRef = 0838A5182352F8BE003EB994 /* groups.json */; };
+		08A299612353CF4800C76976 /* GroupRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A299602353CF4800C76976 /* GroupRow.swift */; };
+		08A299632353CFDE00C76976 /* GroupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A299622353CFDE00C76976 /* GroupList.swift */; };
+		08A299652353E5E500C76976 /* CreateNewGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A299642353E5E500C76976 /* CreateNewGroupView.swift */; };
+		08A299672353E85000C76976 /* MultipleSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A299662353E85000C76976 /* MultipleSelectionRow.swift */; };
 		08C51690234AA1BF0060855E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C5168F234AA1BF0060855E /* CircleImage.swift */; };
 		08C51696234AA33A0060855E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C51695234AA33A0060855E /* MapView.swift */; };
 		08C51699234AA6A00060855E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C51698234AA6A00060855E /* Landmark.swift */; };
@@ -65,6 +72,13 @@
 /* Begin PBXFileReference section */
 		0814CD8E2352BACB008646D2 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		0814CD902352BD5B008646D2 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		0838A5142352F683003EB994 /* GroupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCard.swift; sourceTree = "<group>"; };
+		0838A5162352F81C003EB994 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		0838A5182352F8BE003EB994 /* groups.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = groups.json; sourceTree = "<group>"; };
+		08A299602353CF4800C76976 /* GroupRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRow.swift; sourceTree = "<group>"; };
+		08A299622353CFDE00C76976 /* GroupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupList.swift; sourceTree = "<group>"; };
+		08A299642353E5E500C76976 /* CreateNewGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewGroupView.swift; sourceTree = "<group>"; };
+		08A299662353E85000C76976 /* MultipleSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionRow.swift; sourceTree = "<group>"; };
 		08C5168F234AA1BF0060855E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		08C51695234AA33A0060855E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		08C51698234AA6A00060855E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -139,6 +153,10 @@
 				08C51695234AA33A0060855E /* MapView.swift */,
 				08C5169E234AAA0A0060855E /* LandmarkRow.swift */,
 				08E344C12352C005003951A2 /* Favorite.swift */,
+				0838A5142352F683003EB994 /* GroupCard.swift */,
+				08A299602353CF4800C76976 /* GroupRow.swift */,
+				08A299642353E5E500C76976 /* CreateNewGroupView.swift */,
+				08A299662353E85000C76976 /* MultipleSelectionRow.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -149,6 +167,7 @@
 				08C51698234AA6A00060855E /* Landmark.swift */,
 				08C5169C234AA9040060855E /* Data.swift */,
 				0814CD902352BD5B008646D2 /* UserData.swift */,
+				0838A5162352F81C003EB994 /* Group.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -173,6 +192,7 @@
 				08C516A3234AAC110060855E /* twinlake.jpg */,
 				08C516A4234AAC110060855E /* umbagog.jpg */,
 				08C516AA234AAC110060855E /* yukon_charleyrivers.jpg */,
+				0838A5182352F8BE003EB994 /* groups.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -183,6 +203,7 @@
 				08C516A0234AAA800060855E /* LandmarksPage.swift */,
 				08F7E9F1234531C200BD0B86 /* LandmarkDetailsPage.swift */,
 				08E344CB2352DA6A003951A2 /* GroupsPage.swift */,
+				08A299622353CFDE00C76976 /* GroupList.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -363,6 +384,7 @@
 				08C516B5234AAC120060855E /* stmarylake.jpg in Resources */,
 				08F7E9FA234531C500BD0B86 /* LaunchScreen.storyboard in Resources */,
 				08F7E9F7234531C500BD0B86 /* Preview Assets.xcassets in Resources */,
+				0838A5192352F8BE003EB994 /* groups.json in Resources */,
 				08C516B3234AAC120060855E /* chilkoottrail.jpg in Resources */,
 				08C516B0234AAC120060855E /* twinlake.jpg in Resources */,
 				0814CD8F2352BACB008646D2 /* charleyrivers.jpg in Resources */,
@@ -403,15 +425,21 @@
 				08E344C42352C9BD003951A2 /* App.swift in Sources */,
 				08C51699234AA6A00060855E /* Landmark.swift in Sources */,
 				08F7E9EB234531C200BD0B86 /* AppDelegate.swift in Sources */,
+				08A299672353E85000C76976 /* MultipleSelectionRow.swift in Sources */,
 				08C51696234AA33A0060855E /* MapView.swift in Sources */,
 				08F7E9ED234531C200BD0B86 /* SceneDelegate.swift in Sources */,
 				08F7E9F2234531C200BD0B86 /* LandmarkDetailsPage.swift in Sources */,
 				0814CD912352BD5B008646D2 /* UserData.swift in Sources */,
+				08A299632353CFDE00C76976 /* GroupList.swift in Sources */,
+				0838A5172352F81C003EB994 /* Group.swift in Sources */,
+				08A299612353CF4800C76976 /* GroupRow.swift in Sources */,
 				08F7E9F0234531C200BD0B86 /* Landmarks.xcdatamodeld in Sources */,
 				08E344CC2352DA6A003951A2 /* GroupsPage.swift in Sources */,
 				08C51690234AA1BF0060855E /* CircleImage.swift in Sources */,
 				08C5169D234AA9040060855E /* Data.swift in Sources */,
+				08A299652353E5E500C76976 /* CreateNewGroupView.swift in Sources */,
 				08E344C22352C005003951A2 /* Favorite.swift in Sources */,
+				0838A5152352F683003EB994 /* GroupCard.swift in Sources */,
 				08C5169F234AAA0A0060855E /* LandmarkRow.swift in Sources */,
 				08C516A1234AAA800060855E /* LandmarksPage.swift in Sources */,
 			);
